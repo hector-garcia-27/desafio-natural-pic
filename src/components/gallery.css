@@ -1,0 +1,35 @@
+.ContainerGallery{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.ContainerGallery>.gallery>.favorite{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ContainerGallery>.gallery>.favorite>.iconheart {
+    width: 20px;
+}
+
+.gallery>.containerfoto{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.gallery>.containerfoto>.foto{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.iconocorazon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}

@@ -25,20 +25,8 @@ a {
   color: white;
 }
 
-/* gallery */
-.gallery {
-  display: grid;
-  gap: 10px;
-}
 
-.grid-columns-5 {
-  grid-template-columns: repeat(5, 1fr);
-}
-.grid-columns-4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.gallery .photo {
+/* .gallery .photo {
   cursor: pointer;
   padding: 10px 10px 0px 10px;
   display: flex;
@@ -56,11 +44,4 @@ a {
 .gallery .photo:hover {
   box-shadow: 0px 0px 2px 1px black;
 }
-
-.gallery .photo svg {
-  align-self: flex-end;
-}
-
-.p-3 {
-  padding: 30px;
-}
+ */
